@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ramneek APOD App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="ramneek-header">
+    <button class="ramneek-title">Ramneek APOD</button>
+    <div class="ramneek-form">
+      <input type="date" id="ramneek-date" />
+      <button id="ramneek-button">Button</button>
+    </div>
+  </header>
+
+  <main class="ramneek-main">
+    <div id="ramneek-apod" class="ramneek-apod-box">
+      <img id="ramneek-image" src="" alt="" style="display: none" />
+      <p id="ramneek-description">Lorem ipsum dolor sit amet ut nulla adipiscing elit.</p>
+      <button id="ramneek-add" class="ramneek-link">Add To Favourites</button>
+    </div>
+
+    <div class="ramneek-footer-controls">
+      <button id="ramneek-show-favs" class="ramneek-outline">Favourites List</button>
+    </div>
+     <div id="ramneek-favourites" class="ramneek-fav-list"></div>
+  </main>
+
+  <footer class="ramneek-footer">
+    <p>Copyright © 2025 Ramneek</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

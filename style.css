@@ -1,0 +1,132 @@
+:root {
+  --ramneek-bg: #f4f8fc;
+  --ramneek-primary: #0d6efd;
+  --ramneek-border: #d0d7e2;
+  --ramneek-shadow: rgba(0, 0, 0, 0.08);
+  --ramneek-radius: 12px;
+  --ramneek-text: #334155;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--ramneek-bg);
+  color: var(--ramneek-text);
+}
+
+.ramneek-header {
+  background: #eef2f7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: var(--ramneek-radius);
+  margin: 1rem;
+  box-shadow: 0 2px 8px var(--ramneek-shadow);
+}
+
+.ramneek-title {
+  background: transparent;
+  border: 1px solid var(--ramneek-border);
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-weight: bold;
+  cursor: default;
+}
+
+.ramneek-form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#ramneek-date {
+  padding: 0.5rem;
+  border-radius: var(--ramneek-radius);
+  border: 1px solid var(--ramneek-border);
+}
+
+#ramneek-button {
+  background: var(--ramneek-primary);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: var(--ramneek-radius);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.ramneek-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.ramneek-apod-box {
+  background: white;
+  padding: 1.5rem;
+  border-radius: var(--ramneek-radius);
+  box-shadow: 0 4px 12px var(--ramneek-shadow);
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+  margin-bottom: 1.5rem;
+}
+
+.ramneek-apod-box img {
+  max-width: 100%;
+  border-radius: var(--ramneek-radius);
+  margin-bottom: 1rem;
+}
+
+.ramneek-link {
+  background: none;
+  border: none;
+  color: var(--ramneek-primary);
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.ramneek-outline {
+  border: 1px solid var(--ramneek-border);
+  background: white;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ramneek-footer {
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  border-top: 1px solid var(--ramneek-border);
+  border-radius: var(--ramneek-radius);
+}
+.ramneek-fav-list {
+  width: 90%;
+  max-width: 600px;
+  margin-top: 1rem;
+}
+
+.ramneek-fav-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border-left: 5px solid var(--ramneek-primary);
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  border-radius: var(--ramneek-radius);
+  box-shadow: 0 2px 6px var(--ramneek-shadow);
+  font-weight: 500;
+}
+
+.ramneek-fav-item button {
+  background: none;
+  border: none;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}
